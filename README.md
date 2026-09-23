@@ -50,31 +50,6 @@ Free Cells: Use the four holding slots as temporary space for single cards.
 
 Hidden Cards: Any card covered by a face-down card will reveal itself as soon as the top card is moved away.
 
-🚀 Quick Start & Deployment
-
-Local Usage
-
-Download or save index.html.
-
-Double-click index.html to open and play directly in any modern browser (Chrome, Edge, Safari, Firefox).
-
-Hosting on GitHub Pages
-
-Push index.html to a public or private GitHub repository.
-
-Go to Settings > Pages in your GitHub repository.
-
-Select the main branch as the build source and click Save.
-
-Access your live game at https://<your-username>.github.io/<repository-name>/.
-
-💼 Monetization Options
-
-Web Advertising: Host the site on a custom domain with static hosting (GitHub Pages, Vercel, Netlify) and apply for Google AdSense or Mediavine banner/interstitial ads.
-
-App Package: Wrap the code using tools like Electron (Desktop) or Capacitor (iOS/Android) to sell as a premium game app on Steam, App Store, or Google Play.
-
-HTML5 Game Marketplaces: Zip the assets and publish on platforms like Itch.io or GameJolt using pay-what-you-want or tip jar models.
 
 🛡️ License & Trademarks
 
