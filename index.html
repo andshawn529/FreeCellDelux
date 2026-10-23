@@ -362,6 +362,17 @@
 
     let draggedCardsInfo = null;
 
+    function autoFlipTopCards() {
+      gameState.tableau.forEach(col => {
+        if (col.length > 0) {
+          // Find the top card in the column
+          const topCard = col[col.length - 1];
+          // Force top card face-up whenever it becomes uncovered
+          topCard.faceUp = true;
+        }
+      });
+    }
+
     function createDeck() {
       const deck = [];
       for (let s = 0; s < SUITS.length; s++) {
